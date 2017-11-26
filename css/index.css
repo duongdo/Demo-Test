@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nopadding{
+    padding: 0px;
+}
+.nomargin{
+    margin: 0px;
+}
+@font-face {
+    font-family: GardeStdBkCn;
+    src: url("../fonts/ITCAvantGardeStd-BkCnObl.otf");
+}
+@font-face{
+    font-family: GardeStdBk;
+    src:url("../fonts/ITCAvantGardeStd-BkObl.otf");
+}
+@font-face{
+    font-family: GardeStdBoldCn;
+    src:url("../fonts/ITCAvantGardeStd-BoldCnObl.otf");
+}
+@font-face{
+    font-family: GardeStdBold;
+    src:url("../fonts/ITCAvantGardeStd-BoldObl.otf");
+}
+@font-face{
+    font-family: GardeStdDemiCn;
+    src:url("../fonts/ITCAvantGardeStd-DemiCnObl.otf");
+}
+@font-face{
+    font-family: GardeStdDemi;
+    src:url("../fonts/ITCAvantGardeStd-DemiObl.otf");
+    
+}
+@font-face{
+    font-family: GardeStdMdCn;
+    src:url("../fonts/ITCAvantGardeStd-MdCnObl.otf");
+}
+@font-face{
+    font-family: GardeStdMd;
+    src:url("../fonts/ITCAvantGardeStd-MdObl.otf");
+}
+@font-face{
+    font-family: GardeStdXlCn;
+    src:url("../fonts/ITCAvantGardeStd-XLtCn.otf");
+}
+@font-face{
+    font-family: GardeStdXl;
+    src:url("../fonts/ITCAvantGardeStd-XLtCnObl.otf");
+}
+@font-face{
+    font-family: HelveRoman;
+    src:url("../fonts/HelveticaNeueLTStd Roman.otf");
+}
+@font-face{
+    font-family: HelveMd;
+    src:url("../fonts/HelveticaNeueLTStd-MdIt.otf");
+}
+@font-face{
+    font-family: HelveIt;
+    src:url("../fonts/HelveticaNeueLTStd-It.otf");
+}
+@font-face{
+    font-family: HelveLt;
+    src:url("../fonts/HelveticaNeueLTStd-Lt.otf");
+}
+
+
+@media(min-width:200px){
+    #menu-list ul{
+        width: 100%;
+    }
+    #menu-list ul li{
+        width: 100%;
+        list-style: none;
+        color: #003D7C;
+        font-size: 16px;
+        font-family: GardeStdBk;
+    }
+    #menu-list ul li:last-child a{
+        color: #fff;
+        background: #0088FF;
+        border-radius: 5px; 
+    }
+    .nav>li>a:focus, .nav>li>a:hover{
+        color: #0088FF;
+        background-color: transparent;
+    }
+    .nav>li:last-child>a:focus, .nav>li:last-child>a:hover{
+        color: #fff;
+        background: #0088FF;
+    }
+    #mb-slide img{
+        margin: 0 auto;
+        padding: 20% 1% 0% 1%;
+        width: 60%;
+    }
+    #convert-cus{
+        font-size: 25px;
+        text-align: center;
+    }
+    #per-auto{
+        font-size: 30px;
+        text-align: center;
+    }
+    #cap-purp{
+        font-size: 11px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #getstart-header{
+        text-align: center;
+    }
+    #mb-switch-slide{
+        margin-top: 30px;
+    }
+    #purpose{
+        margin-top: 60px;
+    }
+    #purpose p, #purpose a{
+        color: #fff;
+    }
+    #purpose a{
+        border-radius: 5px;
+        background: #0088FF;
+        padding: 10px 15px;
+        font-size: 17px;
+    }
+    #purpose a:hover,a:hover{
+        text-decoration: none;
+    }
+    #mb-slide .img-slide{
+        margin-top: 0px;
+        padding-bottom: 21%;
+        background-image: url("../img/ip.png");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        text-align: center;
+    }
+    .action-title{
+        font-family: GardeStdMd; 
+        font-size: 20px;
+    }
+    .action-do{
+        font-family:HelveRoman;
+        font-size: 10px;
+    }
+    .customer-logo{
+        width: 20%;
+        float: left;
+    }
+    #carousel-customer .item img{
+        width: 100%;
+    }
+    #carousel-mac .item img{
+        margin: 0 auto;
+        padding: 3% 24.5% 5.5% 25%;
+    }
+    .side-item{
+        margin-top: 5%;
+        opacity: 0.5;
+        display: none;
+    }
+    .guide{
+        font-size: 30px;
+    }
+    #carousel-choose .item img{
+        width: 72%;
+    }
+    #third-action .carousel-control{
+        margin-top: 35%;
+        font-size: 15px;
+    }
+    #carousel-choose{
+        padding: 5% 12%;
+    }
+    .ready{
+        font-size: 20px;
+    }
+    #marketing-power{
+        font-size: 15px;
+    }
+    .feedback{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .customer-name{
+        font-size: 16px
+    }
+    .customer-company{
+        font-size: 12px;
+    }
+    .carousel-indicators{
+        margin-top: 40px;
+    }
+    #ecommerce-intro{
+        font-size: 14px;
+        padding: 0 14%;
+        margin-top: 25px;
+    }
+    #ask{
+        font-size: 25px;
+    }
+    #answer{
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    #getstart{
+        font-size: 14px;
+    }
+}
+@media(min-width:400px){
+
+}
+@media(min-width:600px){
+
+}
+@media(min-width:768px){
+    #purpose{
+        margin-top: 80px;
+    }
+    #menu-list ul{
+        width: auto;
+    }
+    #menu-list ul li{
+        width: auto;
+    }
+    #convert-cus{
+        font-size: 20px;
+        text-align: left;
+    }
+    #per-auto{
+        font-size: 40px;
+        text-align: left;
+    }
+    #cap-purp{
+        font-size: 14px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    #getstart-header{
+        text-align: left;
+    }
+    .navbar-nav>li>a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 15px;
+    }
+    #mb-slide .img-slide{
+        margin-top: 60px;
+        padding-bottom: 34%;
+        background-size: 94%;
+    }
+    #mb-switch-slide{
+        margin-top: 200px;
+    }
+    #first-action{
+        margin-top: 11%;
+    }
+    #mb-slide img{
+        padding: 40% 0% 7% 0%;
+        width: 100%;
+    }
+    #second-action{
+        margin-top: 14%;
+    }
+    .action-title{
+        font-size: 25px;
+    }
+    .action-do{
+        font-size: 15px;
+    }
+    #carousel-mac .item img{
+        padding: -3% 0% 5% 1%;
+    }
+    .guide{
+        font-size: 56px;
+    }
+    .side-item{
+        display: block;
+    }
+    #carousel-choose .item img{
+        width: 100%;
+    }
+    #third-action .carousel-control{
+        margin-top: 15%;
+    }
+    .ready{
+        font-size: 25px;
+    }
+    #marketing-power{
+        font-size: 25px;
+    }
+    .feedback{
+        font-size: 18px;
+        margin-top: 115px;
+    }
+    .customer-name{
+        font-size: 20px;
+    }
+    .customer-company{
+        font-size: 16px;
+    }
+    #ecommerce-intro{
+        font-size: 20px;
+        padding: 0 28%;
+        margin-top: 50px;
+    }
+    #ask{
+        font-size: 30px;
+    }
+    #answer{
+        font-size: 15px;
+        margin-bottom: 108px;
+    }
+    #getstart{
+        font-size: 22px;
+    }
+}
+@media(min-width:992px){
+    #purpose{
+        margin-top: 94px;
+    }
+    #mb-slide .img-slide{
+        padding-bottom: 21%;
+        background-size: 98%;
+    }
+    #mb-slide img{
+        padding: 26% 0% 7% 0%;
+        width: 100%;
+    }
+    #convert-cus{
+        font-size: 29px;
+    }
+    #per-auto{
+        font-size: 50px;
+    }
+    #cap-purp{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #third-action{
+        padding: 0
+    }
+    #carousel-mac .item img{
+        padding: 3% 0% 5% 1%;
+    }
+    #third-action .carousel-control{
+        margin-top: 18%;
+    }
+    #marketing-power{
+        font-size: 30px;
+    }
+    .carousel-indicators{
+        margin-top: 92px;
+    }
+    #ask{
+        font-size: 40px;
+    }
+    #answer{
+        font-size: 20px;
+    }
+}
+@media(min-width:1200px){
+    
+    /*#mb-slide{
+        margin-top: 60px; 
+    }*/
+    /*#mb-slide .img-slide{
+        margin-top: 60px;
+        padding-bottom: 20%;
+    }*/
+}
+html,body{
+    height: 100%
+}
+#main-slide{
+    max-height: 666px;
+    height: 100%;
+    background-image: url('../img/slide-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mb-caption .title-cap{
+    color: #0088FF;
+    font-size: 18px;
+    font-family: HelveMd;
+}
+.mb-caption .main-cap{
+    color: #A0A1A4;
+    font-size: 14px;
+    font-family: HelveRoman;
+}
+.chevron::before {
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 2em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 2em;
+}
+.chevron.right:before {
+    left: 0;
+    transform: rotate(45deg);
+}
+.chevron.left:before {
+    left: 0.25em;
+    transform: rotate(-135deg);
+}
+
+#mb-switch-slide .carousel-control{
+    width: 20%;
+    font-size: 18px;
+
+}
+.carousel-control.right,.carousel-control.left{
+    background-image: unset;
+    opacity: 0.9;
+}
+#mb-switch-slide .carousel-control:hover{
+    color: #0088FF;
+    opacity: 1;
+}
+
+#mac-slide{
+    background-image: url('../img/macbook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.carousel-indicators{
+    position: unset;
+    bottom: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    background-color:#D9D9D9; 
+}
+.carousel-indicators .active{
+    width: 20px;
+    height: 20px;
+    background-color: #006AE2;
+}
+#main-footer{
+    background-image: url('../img/footer-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+}
+ul#menu-footer li{
+    list-style: none;
+    padding: 10px 0;
+}
+ul#menu-footer li a{
+    color: #fff;
+}
+ul#menu-footer li a:hover{
+    color: #0355A6;
+}
+.popover-content {
+    padding: 0px 7px;
+}
